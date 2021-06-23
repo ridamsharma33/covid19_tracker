@@ -1,19 +1,9 @@
-@import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
-
 .infoBox {
   flex: 1;
-  cursor: pointer;
 }
 
 .infoBox:not(:last-child) {
-  margin-right: 15px;
-}
-
-.infoBox__cases {
-  color: #cc1034;
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 0.5rem;
+  margin-right: 10px;
 }
 
 .infoBox--selected {
@@ -25,15 +15,14 @@
 }
 
 .infoBox__cases--green {
-  color: lightgreen;
+  color: lightgreen !important;
 }
 
-.infoBox--grey {
-  border-color: grey;
-}
-
-.infoBox__cases--grey {
-  color: grey;
+.infoBox__cases {
+  color: #cc1034;
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 0.5rem;
 }
 
 .infoBox__total {
