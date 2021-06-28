@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Covid19 Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An application that tracks the status of coronavirus all over the world and showcase it within charts and map.
 
 ## Available Scripts
 
